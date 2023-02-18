@@ -1,0 +1,104 @@
+body{
+background-color: lightseagreen;
+font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;
+/*margin-top: 100px;*/
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+}
+.centacc{
+    color: aliceblue;
+text-align: center;
+font-weight: bolder;
+font-size: 120px;
+font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;
+}
+.present{
+    color: rgb(162, 73, 6);
+    text-align: left;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.fielpre{
+    border-color: black;
+    border-radius: 10px;
+}
+.exppre{
+    font-size: 25px;
+    color: lightgreen;
+    margin: 15px;
+}
+.invite{
+    text-decoration: none;
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.invite:hover{
+    text-decoration: none;
+    border-radius: 10px;
+    color: blueviolet;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.problem{
+    text-decoration: none;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.problem:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(247, 0, 0);
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.suggestions{
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: darkblue;
+    border-color: darkblue;
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.suggestions:hover{
+    border-radius: 10px;
+    color: darkblue;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.versionbot{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+.JavascriptSupport{
+    color: black;
+    font-size: 35px;
+}
+.terms{
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: rgb(19, 208, 6);;
+    border-color: rgb(19, 208, 6);;
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.terms:hover{
+    border-radius: 10px;
+    color: rgb(19, 208, 6);
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    font-size: 25px;
+    font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}

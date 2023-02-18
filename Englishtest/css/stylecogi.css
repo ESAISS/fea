@@ -1,0 +1,197 @@
+body{
+	background-color: paleturquoise;
+}
+.top {
+	font-style: italic;
+	font-size: 60px;
+	text-align: center;
+	margin:40px;
+ font-family: Tahoma, Garamond, sans-serif, Arial;
+}
+.buttontest {
+	font-size: 20px;
+background-color:black ;
+ border-color:black ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 200px;
+}
+.buttontest:hover {
+	opacity: 70%;
+}
+p span {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Tahoma, Garamond, sans-serif, Arial;;
+	margin: 40px;
+  display: block;
+}
+.enc {
+	font-weight: bold;
+	font-size: 35px;
+	font-family: Tahoma, Garamond, sans-serif, Arial;;
+	margin: 40px;
+}
+
+/*Menu*/
+
+.bodymenu{
+	background-color: yellow;
+}
+.menutop {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+	text-align: center;
+	margin:40px;
+ font-family: Tahoma, Garamond, sans-serif, Arial;
+}
+.Easy {
+	font-size: 20px;
+background-color:darkgreen ;
+ border-color:darkgreen ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Easy:hover {
+	font-size: 20px;
+background-color:lightgreen ;
+ border-color:lightgreen ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Medium {
+	font-size: 20px;
+background-color:darkorange ;
+ border-color:darkorange ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Medium:hover {
+	font-size: 20px;
+background-color:orange ;
+ border-color:orange ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Hard {
+	font-size: 20px;
+background-color:darkred ;
+ border-color:darkred ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Hard:hover {
+font-size: 20px;
+background-color:red ;
+ border-color:red ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Mixed {
+	font-size: 20px;
+background-color:darkblue;
+ border-color:darkblue ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Mixed:hover {
+font-size: 20px;
+background-color:blue ;
+ border-color:blue ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Home {
+font-size: 20px;
+background-color:black;
+ border-color:black ; 
+ color:white ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+.Home:hover {
+font-size: 20px;
+background-color:white ;
+ border-color:white ; 
+ color:black ; 
+ border-radius: 5px ; 
+ height: 50px;
+ width: 150px;
+}
+
+/*Easy test*/
+
+.easytest {
+	background-color: darkgreen;
+}
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}
+.questionseasy {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+.answereasy {
+	font-size: 20px;
+	color: white;
+}
+.correct {
+font-size: 20px;
+background-color:green;
+border-color:green;
+color:white;
+border-radius: 5px;
+height: 50px;
+width: 150px;
+}
+.correct:hover {
+font-size: 20px;
+background-color:lightgreen;
+border-color:lightgreen;
+color:black;
+border-radius: 5px;
+height: 50px;
+width: 150px;
+}
+/*Medium test*/
+
+.mediumtest {
+	background-color: darkorange;
+}
+
+/*Hard test*/
+
+.hardtest {
+	background-color: darkred;
+}
+
+/*Mixed test*/
+
+.mixedtest {
+	background-color: darkblue;
+}

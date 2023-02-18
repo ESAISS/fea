@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/stylecogi.css">
+	<script src="javascript\testmenu.js"></script>
+	<script src="javascript\easytest.js"></script>
+	<link rel="icon" href="images\brain.ico">
+	<title>Easy test</title>
+</head>
+<body class="easytest">
+	<fieldset>
+    <legend><div class="questionseasy">1-How can we say "un chauffage" in english ?</div>
+</legend>
+    <div class="answereasy">
+      <input type="checkbox" id="heat" value="heat">
+      <label for="heat">A heat</label>
+    </div>
+
+    <div class="answereasy">
+      <input type="checkbox" id="heater" value="heater">
+      <label for="heater">A heater</label>
+    </div>
+
+    <div class="answereasy">
+      <input type="checkbox" id="chaufage" value="chaufage">
+      <label for="chaufage">A chaufage</label>
+    </div>
+    <button type="submit" class="correct" onClick="easyverif('heater'); return false;">Correct
+    </button>
+</fieldset>
+<fieldset>
+    <legend><div class="questionseasy">2-What does "hat" mean in french ?</div>
+</legend>
+    <div class="answereasy">
+      <input type="checkbox" id="casquette" value="casquette">
+      <label for="casquette">Casquette/Couvre-chef</label>
+    </div>
+
+    <div class="answereasy">
+      <input type="checkbox" id="lunettesdesoleil" value="lunettesdesoleil">
+      <label for="lunettesdesoleil">Lunettes de soleil</label>
+    </div>
+
+    <div class="answereasy">
+      <input type="checkbox" id="chapeau/bonnet" value="chapeau/bonnet">
+      <label for="chapeau/bonnet">Chapeau/Bonnet</label>
+    </div>
+    <button type="submit" class="correct" onClick="easyverif('chapeau/bonnet'); return false;">Correct</button>
+</fieldset>
+<fieldset>
+    <legend><div class="questionseasy">3-Translate "Je suis" in english.</div>
+</legend>
+    <form name="jesuis">
+    	<input type="text" name="jesuis" autocomplete="off" placeholder="Tape here">
+    </form>
+</fieldset>
+<fieldset>
+	<legend><div class="questionseasy">4-Just correct the error(s) in this sentence : I have fifty years old.</div></legend>
+	<form name="have">
+    	<input type="text" name="have" autocomplete="off" placeholder="Tape here">
+    </form>
+</fieldset>
+<fieldset>
+	<legend><div class="questionseasy">5-How can we say "faire du vélo" in english ?</div></legend>
+	<div class="answereasy">
+      <input type="checkbox" id="ridebike" value="ridebike">
+      <label for="ridebike">To ride a bike</label>
+    </div>
+
+    <div class="answereasy">
+      <input type="checkbox" id="drive" value="drive">
+      <label for="drive">To drive</label>
+    </div>
+
+    <div class="answereasy">
+      <input type="checkbox" id="dream" value="dream">
+      <label for="dream">To dream</label>
+    </div>
+    <button type="submit" class="correct" onClick="easyverif('ridebike'); return false;">Correct
+    </button>
+</fieldset>
+<div>
+<br><br><br><br>
+<center>
+<button class="Home" onclick="Menu()">Menu</button>
+</center>
+</div>
+<p id="affrightans"></p>
+<form method="post" id="easyverif" action="">
+</form>
+</body>
+</html>
