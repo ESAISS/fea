@@ -12,6 +12,13 @@ text-align: center;
 font-weight: bolder;
 font-size: 120px;
 font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
 }
 .present{
     color: rgb(162, 73, 6);
@@ -86,7 +93,7 @@ font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;
     color: black;
     font-size: 35px;
 }
-.terms{
+.termsbtn{
     border-radius: 10px;
     color: antiquewhite;
     background-color: rgb(19, 208, 6);;
@@ -94,11 +101,15 @@ font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;
     font-size: 25px;
     font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
 }
-.terms:hover{
+.termsbtn:hover{
     border-radius: 10px;
     color: rgb(19, 208, 6);
     background-color: antiquewhite;
     border-color: antiquewhite;
     font-size: 25px;
     font-family: "Oswald", "Poppins", Garamond, sans-serif, Arial;  
+}
+.acknowledge{
+    color: rgb(1, 100, 139);
+    font-size: 25px;
 }
